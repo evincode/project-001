@@ -141,7 +141,7 @@ header {
 }
 
 .hero .hero-theme::after {
-  content: url(/asset/img/Group-439.svg);
+  content: url(/asset/img/Group439.svg);
   position: absolute;
   top: 0;
   right: -67px;
@@ -453,7 +453,7 @@ header {
 }
 
 .list-guide .link::after {
-    content: url(/asset/img/vector-guides.svg);
+    content: url(/asset/img/vectorguides.svg);
     position: absolute;
     right: -25px;
     top: 0;
@@ -518,7 +518,7 @@ header {
 }
 
 .features .link::after {
-    content: url(/asset/img/vector-guides.svg);
+    content: url(/asset/img/vectorguides.svg);
     position: absolute;
     right: -40px;
     top: 2px;
