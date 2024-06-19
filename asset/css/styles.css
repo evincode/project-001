@@ -334,15 +334,21 @@ header {
 
 .client-logo a {
   transition: transform 0.5s ease;
+  margin: 15px 26px;
 }
 
-.client-logo a:hover:not(a:nth-child(3)) {
+.client-logo a:hover {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 12px;
+  padding: 15px 26px;
+  margin: 0;
   transform: translateY(-20%);
-  color: #000336;
+  box-shadow: 0px 5px 60px -20px rgb(106, 122, 136);
 }
 
-.client-logo a:nth-child(3) {
-  padding-top: 20px;
+.client-logo a:nth-child(3) img {
+  height: 55px;
+  font-size: 100px;
 }
 
 /**************** Guides Main *************************/
