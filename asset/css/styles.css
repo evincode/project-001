@@ -9,6 +9,9 @@ html {
 body {
   font-family: "Poppins", "Lato", "Sans-serif";
   font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 :root {
@@ -41,7 +44,7 @@ a {
 
 /* Header */
 header {
-  padding-top: 102px;
+  padding-top: 19.5px;
   background: #d1def1;
   /* height: 100vh; */
 }
@@ -64,8 +67,9 @@ header {
   position: -webkit-sticky;
   background: #d1def1;
   z-index: 999;
-  padding-left: 185px;
-  padding-right: 185px;
+  width: 100%;
+  padding-left: 12.4%;
+  padding-right: 12.4%;
 }
 
 .nav-bar .logo {
