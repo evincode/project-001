@@ -41,7 +41,8 @@ a {
 
 /* Header */
 header {
-  background: #d1def1;
+  margin-top: 102px;
+  /* background: #d1def1; */
   /* height: 100vh; */
 }
 
@@ -53,6 +54,7 @@ header {
 }
 
 .nav-bar {
+  margin-top: -10px;
   display: flex;
   align-items: center;
   padding: 38px 0;
@@ -62,6 +64,8 @@ header {
   position: -webkit-sticky;
   background: #d1def1;
   z-index: 999;
+  padding-left: 185px;
+  padding-right: 185px;
 }
 
 .nav-bar .logo {
@@ -141,7 +145,7 @@ header {
 }
 
 .hero .hero-theme::after {
-  content: url(/asset/img/Group439.svg);
+  content: url(../img/Group439.svg);
   position: absolute;
   top: 0;
   right: -67px;
@@ -335,8 +339,6 @@ header {
 
 .client-logo a:nth-child(3) {
   padding-top: 20px;
-  border-radius: 20px;
-  box-shadow: 2px 3px 3px 0px rgba(102, 101, 101, 0.557);
 }
 
 /**************** Guides Main *************************/
@@ -453,7 +455,7 @@ header {
 }
 
 .list-guide .link::after {
-    content: url(/asset/img/vectorguides.svg);
+    content: url(../asset/img/vectorguides.svg);
     position: absolute;
     right: -25px;
     top: 0;
@@ -518,7 +520,7 @@ header {
 }
 
 .features .link::after {
-    content: url(/asset/img/vectorguides.svg);
+    content: url(../asset/img/vectorguides.svg);
     position: absolute;
     right: -40px;
     top: 2px;
@@ -628,7 +630,7 @@ header {
     z-index: 1;
     width: 460px;
     height: 100%;
-    background: url(/asset/img/image-stats.jpg) lightgray 0px 25% / 100% 117.792% no-repeat;
+    background: url(../asset/img/image-stats.jpg) lightgray 0px 25% / 100% 117.792% no-repeat;
     border-radius: 12px;
     box-shadow: 40px 80px 155px 0px rgba(30, 103, 113, 0.03);
     top: 0;
