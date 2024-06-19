@@ -58,19 +58,18 @@ header {
 
 .nav {
   background: #d1def1;
-}
-
-.nav-bar {
-  margin-top: -10px;
-  display: flex;
-  align-items: center;
-  padding: 38px 0;
-  text-wrap: nowrap;
   position: sticky;
   top: 0;
   position: -webkit-sticky;
-  background: #d1def1;
   z-index: 999;
+  margin-top: -10px;
+  text-wrap: nowrap;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding: 38px 0;
 }
 
 .nav-bar .logo {
